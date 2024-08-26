@@ -48,7 +48,7 @@ export default function Achievements({ params }: AchievementProps) {
               </div>
             )
         )}
-        <Button className="mx-auto py-2 w-fit md:w-fit px-16" asChild>
+        {/* <Button className="mx-auto py-2 w-fit md:w-fit px-16" asChild>
           <Link
             href={`?${new URLSearchParams({
               "show-achievements":
@@ -60,7 +60,7 @@ export default function Achievements({ params }: AchievementProps) {
           >
             {LIMIT >= achievements.length ? "View Less" : "View More"}
           </Link>
-        </Button>
+        </Button> */}
       </div>
     </section>
   )

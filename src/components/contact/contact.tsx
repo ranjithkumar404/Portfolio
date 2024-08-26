@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Profile from "@/assets/images/Deveesh.jpg"
+import Profile from "@/assets/images/ranjith1.jpg"
 import styles from "./contact.module.css"
 import { icons as Icon } from "@/lib/icons"
 import Link from "next/link"
@@ -21,10 +21,10 @@ function Contact() {
         </div>
         <div className="flex flex-col items-center w-full gap-4">
           <div className="mt-4 text-center transition-all">
-            <p className="text-xl md:text-2xl transition-all">Deveesh Shetty</p>
-            <p>deveeshshetty@gmail.com</p>
+            <p className="text-xl md:text-2xl transition-all">Ranjith Kumar</p>
+            <p>ranjithkumarshetty2003@gmail.com</p>
             <p className="my-2">
-              Frontend Developer | President SOSC | Open Source Enthusiast
+              Web Developer | Networking Enthusiast
             </p>
           </div>
           <div
@@ -48,7 +48,7 @@ function Contact() {
                 <Icon.LinkedIn />
               </Link>
             </div>
-            <div className="flex w-4/5 h-12 items-center border border-white rounded-xl cursor-pointer justify-center hover:bg-slate-200 transition-all duration-300 hover:text-slate-800 text-xl">
+            {/* <div className="flex w-4/5 h-12 items-center border border-white rounded-xl cursor-pointer justify-center hover:bg-slate-200 transition-all duration-300 hover:text-slate-800 text-xl">
               <Link
                 href={siteConfig.socials.twitter}
                 target="_blank"
@@ -56,8 +56,8 @@ function Contact() {
               >
                 <Icon.Twitter />
               </Link>
-            </div>
-            <div className="flex w-4/5 h-12 items-center border border-white rounded-xl cursor-pointer justify-center hover:bg-slate-200 transition-all duration-300 hover:text-slate-800 text-xl">
+            </div> */}
+            {/* <div className="flex w-4/5 h-12 items-center border border-white rounded-xl cursor-pointer justify-center hover:bg-slate-200 transition-all duration-300 hover:text-slate-800 text-xl">
               <Link
                 href={siteConfig.socials.devTo}
                 target="_blank"
@@ -65,7 +65,7 @@ function Contact() {
               >
                 <Icon.DevTo />
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

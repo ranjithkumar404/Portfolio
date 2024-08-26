@@ -7,8 +7,7 @@ function TechStack() {
       <H2>Tech Stack</H2>
       <div className="grid grid-cols-5 outline outline-1 outline-slate-700 text-xl md:text-2xl">
         <div className="col-span-5 flex flex-wrap py-8 gap-8 outline outline-1 -outline-offset-4 outline-slate-700 px-4 items-center">
-          <Icon.JavaScript />
-          <Icon.TypeScript />
+          <span>C++</span>
           <Icon.HTML />
           <Icon.CSS />
           <span>C</span>
@@ -23,12 +22,10 @@ function TechStack() {
         <div className="col-span-5 md:col-span-2 flex flex-wrap py-8 gap-8 outline outline-1 -outline-offset-4 outline-slate-700 px-4 items-center">
           <Icon.VSCode />
           <Icon.Vercel />
-          <Icon.Figma />
+          
         </div>
         <div className="col-span-5 flex flex-wrap py-8 gap-8 outline outline-1 -outline-offset-4 outline-slate-700 px-4 items-center">
           <Icon.React />
-          <Icon.NextJs />
-          <Icon.Vite />
           <Icon.Tailwind />
           <Icon.NodeJs />
           <Icon.Express />

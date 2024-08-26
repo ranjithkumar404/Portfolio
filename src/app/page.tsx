@@ -16,8 +16,8 @@ export default function HomePage({ searchParams }: HomePageProps) {
       <Home />
       <TechStack />
       <Projects params={searchParams} />
-      <Experience />
-      <Talks />
+      {/* <Experience /> */}
+      {/* <Talks /> */}
       <Achievements params={searchParams} />
     </main>
   )

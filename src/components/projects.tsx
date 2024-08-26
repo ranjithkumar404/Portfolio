@@ -49,9 +49,9 @@ function Projects({ params }: ProjectProps) {
                   <div className="mt-2 lg:mt-0 flex justify-between">
                     <p className="text-slate-300">{project.date}</p>
                     <div className="flex gap-2 text-xl">
-                      <Link href={project.sourceCode} target="_blank">
+                      {/* <Link href='' target="_blank">
                         <Icon.SourceCode />
-                      </Link>
+                      </Link> */}
                       {project.liveUrl && (
                         <Link href={project.liveUrl} target="_blank">
                           <Icon.Visit />
@@ -61,7 +61,7 @@ function Projects({ params }: ProjectProps) {
                   </div>
                 </div>
                 <Link
-                  href={project.liveUrl ?? project.sourceCode}
+                  href={project.liveUrl ?? project.sourceCode ?? "/"}
                   className="relative w-full aspect-video lg:border-2 border-slate-700 rounded-xl"
                 >
                   <Image
@@ -75,7 +75,7 @@ function Projects({ params }: ProjectProps) {
               </div>
             )
         )}
-        <Button className="mx-auto py-2 w-fit md:w-fit px-16" asChild>
+        {/* <Button className="mx-auto py-2 w-fit md:w-fit px-16" asChild>
           <Link
             href={`?${new URLSearchParams({
               "show-projects":
@@ -85,7 +85,7 @@ function Projects({ params }: ProjectProps) {
           >
             {LIMIT >= projects.length ? "View Less" : "View More"}
           </Link>
-        </Button>
+        </Button> */}
       </div>
     </section>
   )

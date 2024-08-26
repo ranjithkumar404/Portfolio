@@ -6,17 +6,17 @@ import { siteConfig } from "@/lib/config"
 
 export const metadata: Metadata = {
   title: {
-    default: "Deveesh Shetty",
+    default: "Ranjith Kumar",
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
   keywords: [
-    "Deveesh Shetty",
+    "Ranjith Kumar",
     "Frontend Developer",
     "MERN Stack Developer",
-    "Deveesh",
+    "Ranjith",
   ],
-  creator: "dev-shetty",
+  creator: "ranjithkumar404",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Deveesh Shetty",
+      name: "ranjithkumar404",
       url: siteConfig.url,
     },
   ],

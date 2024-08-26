@@ -8,16 +8,16 @@ function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <div>
           <Link href="/" className="text-xl hover:text-slate-200">
-            DevShetty
+            Ranjith Kumar
           </Link>
         </div>
         <ul className="flex items-center gap-2 justify-end text-sm">
-          <Button asChild>
+          {/* <Button asChild>
             <Link href="/art-gallery">
               <Icon.Palette className="md:hidden" />
               <span className="hidden md:block">Art Gallery</span>
             </Link>
-          </Button>
+          </Button> */}
           <Button asChild>
             <Link
               href="/contact"

@@ -23,118 +23,12 @@ type Achievement = {
 export const achievements: Achievement[] = [
   {
     id: uuid(),
-    competition: "CIDECode - CID Hackathon",
+    competition: "AI Innovation Hackathon",
     position: "Finalist",
     description:
-      "Developed a solution for crawling onion sites, extracting data and correlating with clear net",
+      "  We Developed a website that facilitate the migration of legacy code framework(VB)into modern technologies (Python) using Machine learnig algorithm(DeepQLearning) and we integrated our website with a Chatbot powered by GPT API for code documentation and error detection.",
     date: "February 2024",
-    teamMembers: ["Rishab Budale", "Akkil MG", "Sushruth Rao"],
-    organizer: "PES University, Bengaluru",
-  },
-  {
-    id: uuid(),
-    competition: "Devhacks 5.0",
-    position: "Track Winners",
-    description:
-      "Developed a collaborative savings platform using blockchain to decentralize transactions.",
-    date: "February 2024",
-    teamMembers: ["Akkil MG", "Srajan Kumar", "Srujan Rai", "Zeliq Zayyan"],
-    organizer: "IIT Dharwad",
-  },
-  {
-    id: uuid(),
-    competition: "Echelon 2024",
-    position: "2nd Place",
-    description:
-      "Pitched the idea for ResQ phone for children and oldage people, competed against MBA students.",
-    date: "January 2024",
-    teamMembers: ["Chinmaya Vittal V", "Tejas GK"],
-    organizer: "Shreedevi Institute of Technology",
-  },
-  {
-    id: uuid(),
-    competition: "Roolathon 2023",
-    position: "1st Place",
-    description:
-      "Developed and proposed idea for providing financial education for underserved people using Web and App.",
-    date: "December 2023",
-    teamMembers: ["Srujan Rai", "Akkil MG", "Zeliq Zayyan"],
-    organizer: "GDSC - Srinvias Institute of Technology",
-  },
-  {
-    id: uuid(),
-    competition: "API Day Coastal Karnataka",
-    position: "Project Pitching",
-    description:
-      "Pitched our project Rudraksh to about 400+ participants, and received positive feedback.",
-    date: "November 2023",
-    teamMembers: ["Srujan Rai", "Sannidhi Kaje"],
-    organizer: "National Institute of Technology, Karnataka",
-  },
-  {
-    id: uuid(),
-    competition: "Techzooka 2023",
-    position: "Idea Pitching",
-    description:
-      "Pitched the idea for AI based learning assistant, for efficient learning experience by different kinds of learners.",
-    date: "November 2023",
-    teamMembers: ["Varshaa Shetty"],
-    organizer: "Infosys, Mangalore",
-  },
-  {
-    id: uuid(),
-    competition: "Smart India Internal Hackathon",
-    position: "3rd Place",
-    description:
-      "Proposed Idea and Prototype for Smart Irrigation System using AI and IoT.",
-    date: "September 2023",
-    teamMembers: [
-      "Srujan Rai",
-      "Akkil MG",
-      "Rishab Budale",
-      "Varshaa Shetty",
-      "Sinchana PR",
-    ],
-    organizer: "Sahyadri College of Engineering and Management",
-  },
-  {
-    id: uuid(),
-    competition: "Nivhack 2023",
-    position: "Finalist",
-    description:
-      "Developed a web-based application for demand forecasting and warehouse management using AI and Google Cloud.",
-    teamMembers: ["Srujan Rai", "Akkil MG", "Rishab Budale"],
-    date: "August 2023",
-    organizer: "Niveus Solutions",
-  },
-  {
-    id: uuid(),
-    competition: "API Literacy",
-    position: "2nd Place",
-    description:
-      "Built Rudraksh, web-based plant disease detection through image uploads.",
-    teamMembers: ["Srujan Rai", "Sannidhi Kaje", "Kaushik KU", "Divya P"],
-    date: "August 2023",
-    organizer: "IEEE Mangalore Subsection",
-  },
-  {
-    id: uuid(),
-    competition: "Hacknight, DevHost 2022",
-    position: "1st Place",
-    description:
-      "Developed a realtime driver tracking application with React.js and Leaflet.js.",
-    teamMembers: ["Akkil MG", "Tejas GK"],
-    date: "October 2022",
-    organizer: "SOSC",
-  },
-  {
-    id: uuid(),
-    competition: "Cyber Security Hackathon",
-    position: "3rd Place",
-    description:
-      "Secured by capturing flags by decoding patterns, and breaking into Linux Servers",
-    date: "June 2022",
-    teamMembers: ["Individual"],
-    organizer: "CyberSapiens, Mangalore",
-  },
+    teamMembers: ["Keerthan M S", "Vishnu N Poojary", "Vishesh Hadimani"],
+    organizer: "EG,Mangalore",
+  }
 ]
